@@ -1,0 +1,101 @@
+<!--
+<block name="cte1" type="Constant">
+    <output name="value" type="float_array">3</output>
+</block>
+-->
+<constant name="cte1">
+    <output name="output" type="float" value=3.14/>
+</constant>
+
+<block>
+    <input name="in" type="float" source_block="cte1" source_output="output">
+</block>
+
+<!--
+    Los <block> son funciones cuya implementacion es externa; equivalen a
+    un llamado a funcion de libreria.
+
+    La inclusion del IDF equivale a un #include con forward declarations.
+    En el IDF estan declarados los bloques (cantidad de entradas/salidas
+    y sus tipos).
+
+    Podrian crearse blocks locales cuya implementacion no sea externa.
+    Hacer esto implica crear un lenguaje y definir un conjuto de operaciones
+    basicas y definir un type-system (que no necesariamente debe ser static,
+    dado que siempre habra un parser que interprete el xml).
+
+    El unico motivo de existencia de este nuevo lenguaje, seria ahorrar al
+    usuario el trabajo de crear la subyacente implementacion (en C/C++) de
+    los bloques a usar en la interface grafica.
+
+    Herramientas para gestionar la dinamica del sistema de control (program 
+    flow control):
+        - Muxes
+        - Conditionals
+        - Timers
+        - Start/Stop/Resume execution
+        - Blocks de ejecucion continua
+    Herramientas para el control de hardware (ISR, DMA, CACHE, etc.):
+        - DmaSinks & DmaSources
+        - Instalar ISRs
+        - Emitir señales
+    Es necesario definir un conjunto de operaciones elementales genericas
+    de control de hardware como por ej. enviar un buffer a Cache, etc.
+
+    [Puede un lenguaje declarativo controlar hardware a tan bajo nivel como
+    DMA, CACHE, etc? No, la impleratividad de un programa es necesaria para
+    realizar secuencias de configuracion avanzadas.]
+
+    [Los controles de hardware son "complejos". Requieren mucha especificidad.
+    Es necesario una solucion de compromiso que implemente funcionalidades
+    genericas minimas necesarias.
+    Por empezar hay que definir que soporte debe haber desde el flow diagram, 
+    que permita generalidad en y portabilidad entre plataformas.]
+
+    ISR/IRQ:
+        - Emit signals (set a flag high)
+        - Execute code, perteneciente a un bloque.
+            Permitir esto implica que el bloque deja de ser un bloque de
+            procesamiento (que toma entradas y genera salidas), para convertirse
+            en algo mas complejo (una FSM?).
+            Un bloque no debe necesitar nada mas que sus entradas para generar sus
+            salidas (pure function?).
+            Las FSM deberian estar creadas en la implementacion, o en el flow diagram?
+            De estar en la implementacion, desde el FD (flow diagrama) habria que
+            disponierse algun mecanismo para determinar cuando la FSM termino de procesar.
+            Para que sirven las FSM?
+            - Para generar el esquema multitasking.
+            - Para realizar acciones evolutivas basadas en eventos.
+
+-->
+
+<dma_source>
+    <peripheral  type="ADC1"    irq="quarter"/>
+    <memory      type="FLASH"   irq="three_quarter"/>
+    <memory      type="RAM"     irq="half"/>
+    <peripheral  type="UART4"/>
+</dma_source>
+
+<dma_dest>    
+</dma_dest>
+
+
+
+<constant name="cte2">
+    <output name="pi" type="float">         3.141592654 </output>
+    <output name="count" type="uint8_t">    33          </output>
+    <output name="matrix" type="uint8_t" size="3 2">
+        203   2
+         33 251
+        135  16
+    </output>
+    <output name="matrix" type="Complex">
+        <real>7</real>
+        <imag>8</imag>
+    </output>
+    <output name="matrix" type="Complex" size="2 2">
+         7  8  9 10
+        11 12 13 14
+    </output>
+</constant>
+

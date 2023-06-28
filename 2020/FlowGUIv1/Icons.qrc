@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RCC version="1.0">
+    <qresource>
+        <!--
+                List files that you want to include into resources like this:
+                <file>images/copy.png</file>
+        -->
+        <file alias="icon0">IconsPNG/Applications2.png</file>
+        <file alias="icon1">IconsPNG/Burnable2.png</file>
+        <file alias="icon2">IconsPNG/Desktop2.png</file>
+        <file alias="icon3">IconsPNG/Documents2.png</file>
+        <file alias="icon4">IconsPNG/Downloads2.png</file>
+        <file alias="icon5">IconsPNG/genqt.sh</file>
+        <file alias="icon6">IconsPNG/Group2.png</file>
+        <file alias="icon7">IconsPNG/Home3.png</file>
+        <file alias="icon8">IconsPNG/Library2.png</file>
+        <file alias="icon9">IconsPNG/log.txt</file>
+        <file alias="icon10">IconsPNG/Movie2.png</file>
+        <file alias="icon11">IconsPNG/Music2.png</file>
+        <file alias="icon12">IconsPNG/Photos2.png</file>
+        <file alias="icon13">IconsPNG/Public2.png</file>
+        <file alias="icon14">IconsPNG/Server2.png</file>
+        <file alias="icon15">IconsPNG/Server3.png</file>
+        <file alias="icon16">IconsPNG/Sites2.png</file>
+        <file alias="icon17">IconsPNG/Sites3.png</file>
+        <file alias="icon18">IconsPNG/Smart2.png</file>
+        <file alias="icon19">IconsPNG/Software.png</file>
+        <file alias="icon20">IconsPNG/Torrents.png</file>
+        <file alias="icon21">IconsPNG/Users2.png</file>
+        <file alias="icon22">IconsPNG/Utilities2.png</file>
+    </qresource>
+</RCC>

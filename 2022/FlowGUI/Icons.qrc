@@ -1,0 +1,123 @@
+<RCC>
+    <qresource prefix="/Images">
+        <file>IconsPNG/Applications2.png</file>
+        <file>IconsPNG/Burnable2.png</file>
+        <file>IconsPNG/Desktop2.png</file>
+        <file>IconsPNG/Documents2.png</file>
+        <file>IconsPNG/Downloads2.png</file>
+        <file>IconsPNG/Group2.png</file>
+        <file>IconsPNG/Home3.png</file>
+        <file>IconsPNG/Library2.png</file>
+        <file>IconsPNG/Movie2.png</file>
+        <file>IconsPNG/Music2.png</file>
+        <file>IconsPNG/Photos2.png</file>
+        <file>IconsPNG/Public2.png</file>
+        <file>IconsPNG/Server2.png</file>
+        <file>IconsPNG/Server3.png</file>
+        <file>IconsPNG/Sites2.png</file>
+        <file>IconsPNG/Sites3.png</file>
+        <file>IconsPNG/Smart2.png</file>
+        <file>IconsPNG/Software.png</file>
+        <file>IconsPNG/Torrents.png</file>
+        <file>IconsPNG/Users2.png</file>
+        <file>IconsPNG/Utilities2.png</file>
+        <file>IconsPNG/Programming/001-404 error.png</file>
+        <file>IconsPNG/Programming/002-add.png</file>
+        <file>IconsPNG/Programming/003-algorithm.png</file>
+        <file>IconsPNG/Programming/004-alt.png</file>
+        <file>IconsPNG/Programming/005-api.png</file>
+        <file>IconsPNG/Programming/006-approval.png</file>
+        <file>IconsPNG/Programming/007-app.png</file>
+        <file>IconsPNG/Programming/008-backspace.png</file>
+        <file>IconsPNG/Programming/009-c++.png</file>
+        <file>IconsPNG/Programming/010-c.png</file>
+        <file>IconsPNG/Programming/011-cancel.png</file>
+        <file>IconsPNG/Programming/012-certificate.png</file>
+        <file>IconsPNG/Programming/013-pay per click.png</file>
+        <file>IconsPNG/Programming/014-click.png</file>
+        <file>IconsPNG/Programming/015-cloud computing.png</file>
+        <file>IconsPNG/Programming/016-cloud computing.png</file>
+        <file>IconsPNG/Programming/017-cloud computing.png</file>
+        <file>IconsPNG/Programming/018-notebook.png</file>
+        <file>IconsPNG/Programming/019-cloud.png</file>
+        <file>IconsPNG/Programming/020-hastag.png</file>
+        <file>IconsPNG/Programming/021-computing.png</file>
+        <file>IconsPNG/Programming/022-code.png</file>
+        <file>IconsPNG/Programming/023-notebook.png</file>
+        <file>IconsPNG/Programming/024-notebook.png</file>
+        <file>IconsPNG/Programming/025-coding.png</file>
+        <file>IconsPNG/Programming/026-command.png</file>
+        <file>IconsPNG/Programming/027-layers.png</file>
+        <file>IconsPNG/Programming/028-browser.png</file>
+        <file>IconsPNG/Programming/029-coding.png</file>
+        <file>IconsPNG/Programming/030-plugs.png</file>
+        <file>IconsPNG/Programming/031-cross.png</file>
+        <file>IconsPNG/Programming/032-css.png</file>
+        <file>IconsPNG/Programming/033-virus.png</file>
+        <file>IconsPNG/Programming/034-delete.png</file>
+        <file>IconsPNG/Programming/035-diamond.png</file>
+        <file>IconsPNG/Programming/036-interface.png</file>
+        <file>IconsPNG/Programming/037-download.png</file>
+        <file>IconsPNG/Programming/038-email.png</file>
+        <file>IconsPNG/Programming/039-eject.png</file>
+        <file>IconsPNG/Programming/040-email.png</file>
+        <file>IconsPNG/Programming/041-enter.png</file>
+        <file>IconsPNG/Programming/042-expand.png</file>
+        <file>IconsPNG/Programming/043-eye.png</file>
+        <file>IconsPNG/Programming/044-favourite.png</file>
+        <file>IconsPNG/Programming/045-bin.png</file>
+        <file>IconsPNG/Programming/046-graph.png</file>
+        <file>IconsPNG/Programming/047-internet.png</file>
+        <file>IconsPNG/Programming/048-auction.png</file>
+        <file>IconsPNG/Programming/049-homepage.png</file>
+        <file>IconsPNG/Programming/050-arrange.png</file>
+        <file>IconsPNG/Programming/051-html.png</file>
+        <file>IconsPNG/Programming/052-http.png</file>
+        <file>IconsPNG/Programming/053-internet.png</file>
+        <file>IconsPNG/Programming/054-java.png</file>
+        <file>IconsPNG/Programming/055-js.png</file>
+        <file>IconsPNG/Programming/056-key.png</file>
+        <file>IconsPNG/Programming/057-keyboard.png</file>
+        <file>IconsPNG/Programming/058-keyboard.png</file>
+        <file>IconsPNG/Programming/059-left.png</file>
+        <file>IconsPNG/Programming/060-list.png</file>
+        <file>IconsPNG/Programming/061-loupe.png</file>
+        <file>IconsPNG/Programming/062-maximize.png</file>
+        <file>IconsPNG/Programming/063-minimize.png</file>
+        <file>IconsPNG/Programming/064-minimize.png</file>
+        <file>IconsPNG/Programming/065-mobilephone.png</file>
+        <file>IconsPNG/Programming/066-browsers.png</file>
+        <file>IconsPNG/Programming/067-keyhole.png</file>
+        <file>IconsPNG/Programming/068-password.png</file>
+        <file>IconsPNG/Programming/069-php.png</file>
+        <file>IconsPNG/Programming/070-power.png</file>
+        <file>IconsPNG/Programming/071-browser.png</file>
+        <file>IconsPNG/Programming/072-trash.png</file>
+        <file>IconsPNG/Programming/073-browser.png</file>
+        <file>IconsPNG/Programming/074-arrow.png</file>
+        <file>IconsPNG/Programming/075-python.png</file>
+        <file>IconsPNG/Programming/076-qr code.png</file>
+        <file>IconsPNG/Programming/077-circles.png</file>
+        <file>IconsPNG/Programming/078-circles.png</file>
+        <file>IconsPNG/Programming/079-circles.png</file>
+        <file>IconsPNG/Programming/080-circles.png</file>
+        <file>IconsPNG/Programming/081-right.png</file>
+        <file>IconsPNG/Programming/082-save.png</file>
+        <file>IconsPNG/Programming/083-web development.png</file>
+        <file>IconsPNG/Programming/084-security.png</file>
+        <file>IconsPNG/Programming/085-selection.png</file>
+        <file>IconsPNG/Programming/086-support.png</file>
+        <file>IconsPNG/Programming/087-tab.png</file>
+        <file>IconsPNG/Programming/088-thumbnails.png</file>
+        <file>IconsPNG/Programming/089-toolbar.png</file>
+        <file>IconsPNG/Programming/090-touch.png</file>
+        <file>IconsPNG/Programming/091-recycle bin.png</file>
+        <file>IconsPNG/Programming/092-browsers.png</file>
+        <file>IconsPNG/Programming/093-up arrow.png</file>
+        <file>IconsPNG/Programming/094-upload.png</file>
+        <file>IconsPNG/Programming/095-file.png</file>
+        <file>IconsPNG/Programming/096-arrange.png</file>
+        <file>IconsPNG/Programming/097-zoom in.png</file>
+        <file>IconsPNG/Programming/098-zoom out.png</file>
+    </qresource>
+</RCC>
